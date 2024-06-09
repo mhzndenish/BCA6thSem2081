@@ -1,93 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:layout_marginHorizontal="20dp"
     tools:context=".LoginActivity">
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
-        android:importantForAccessibility="no"
-        android:src="@drawable/logo"
-        />
-
+        android:src="@drawable/logo"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="@string/welcome_back"
-        android:textColor="@color/grey"
+        android:text="@string/create_a_new_account"
         android:textSize="26sp"
+        android:textColor="@color/grey"
         android:textStyle="bold"
-        />
+        android:layout_marginTop="50dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/there_are_many_variations_of_passages"
+        android:text="@string/there_are_many_variations_of_passages_of_lorem_ipsum_available"
         android:textColor="@color/lightgrey"
         android:layout_marginTop="6dp"
-        android:textSize="18sp"
-
-        />
-
+        android:gravity="center"
+        android:textSize="18sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/mobile_Number"
         android:layout_marginTop="40dp"
-        android:hint="@string/email_mobile_number" />
-
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:hint="@string/password"
         android:drawableEnd=""
-        android:layout_marginTop="28dp"/>
-    <TextView
+        android:layout_marginTop="28dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:drawableEnd=""
+        android:layout_marginTop="28dp"
+        />
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/forgot_password"
-        android:textSize="18sp"
-        android:textColor="@color/blue"
-        android:layout_marginTop="18dp"/>
-
+        android:text="@string/i_agree_with_the_terms_of_service_privacy_policy"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:layout_marginRight="80px"
+        />
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/sign_up"
         android:textSize="22sp"
         app:cornerRadius="10dp"
-        android:textColor="@color/blue"
-        android:layout_marginTop="45dp"
-        />
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="30dp"/>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
+
         android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/don_t_have_an_account"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/join_us"
-        android:textStyle="bold"
-        android:textColor="@color/blue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signin"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-
+</androidx.appcompat.widget.LinearLayoutCompat>

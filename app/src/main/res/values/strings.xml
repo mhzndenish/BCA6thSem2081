@@ -15,4 +15,12 @@
     <string name="login">Login</string>
     <string name="don_t_have_an_account">Don’t have an account?</string>
     <string name="join_us">Join Us</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="there_are_many_variations_of_passages_of_lorem_ipsum_available">"There are many variations of passages of Lorem Ipsum available "</string>
+    <string name="mobile_Number">Mobile Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_agree_with_the_terms_of_service_privacy_policy"><![CDATA[I agree with the Terms of Service &\nPrivacy Policy.]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">"Already have an account? "</string>
+    <string name="signin">Signin</string>
 </resources>
