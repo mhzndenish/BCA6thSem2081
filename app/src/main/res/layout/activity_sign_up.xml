@@ -51,14 +51,15 @@
         android:drawableEnd=""
         android:layout_marginTop="28dp"
         />
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/i_agree_with_the_terms_of_service_privacy_policy"
         android:layout_marginTop="30dp"
-        android:textSize="16sp"
-        android:layout_marginRight="80px"
-        />
+        android:layout_gravity="start"
+        android:textSize="16sp" />
+
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
